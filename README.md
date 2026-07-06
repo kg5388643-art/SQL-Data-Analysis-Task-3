@@ -30,7 +30,7 @@ WHERE e.grade = (
 );
 ```
 ### Output
-![Top Student Per Course](Screenshots/TopStudentPerCourse.png)
+![Top Student Per Course](TopStudentPerCourse.png)
 ---
 # 📌 Query 2: Pass Rate Per Course
 ### SQL Query
@@ -49,7 +49,7 @@ ON e.course_id = c.id
 GROUP BY c.name;
 ```
 ### Output
-![Pass Rate Per Course](Screenshots/PassRate.png)
+![Pass Rate Per Course](PassRate.png)
 ---
 # 📌 Query 3: Overall Topper
 ### SQL Query
@@ -66,7 +66,7 @@ ORDER BY Total_Marks DESC
 LIMIT 1;
 ```
 ### Output
-![Overall Topper](Screenshots/TopPerformer.png)
+![Overall Topper](TopPerformer.png)
 ---
 # 📌 Query 4: Students Enrolled in Multiple Courses
 
@@ -84,7 +84,7 @@ GROUP BY s.student_id, s.Name
 HAVING COUNT(e.course_id) > 1;
 ```
 ### Output
-![Students Enrolled in Multiple Courses](Screenshots/MultipleCourses.png)
+![Students Enrolled in Multiple Courses](MultipleCourses.png)
 ---
 ## 📚 SQL Concepts Used
 - INNER JOIN
